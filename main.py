@@ -1,6 +1,6 @@
 from fastmcp import FastMCP
 
-mcp = FastMCP(title="Addition Service", description="A simple service to add two integers.")
+mcp = FastMCP("Addition Service")
 
 
 @mcp.tool
